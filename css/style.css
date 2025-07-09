@@ -1,0 +1,20 @@
+:root{
+    --purple:#2F192E;
+    --purple-light:#30192d;
+    --blue:#5c65c0;
+    --light-blue:#005bc5;
+    --dark-blue:#012677;
+    --skyblue:#00b4d8;
+    --dark-pink:#ff2e63;
+    --dark-margenta:#e60073;
+    --light-green:#61e2c2;
+    --light-purple:#a020f0;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    text-decoration: none;
+    font-family: poppins, sans-serif;
+}
