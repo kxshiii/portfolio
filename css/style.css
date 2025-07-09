@@ -20,7 +20,7 @@
     font-family: poppins, sans-serif;
 }
 body{
-    background:linear-gradient(45deg, var(--purple), var(--blue));
+    background:linear-gradient(45deg, var(--purple), var(--purple-light));
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -35,7 +35,7 @@ body{
     overflow: hidden;
 }
 .profile-card{
-    background:#111;
+    background:#1d1d1d;
     width: 400px;
     padding: 3rem;
     border-radius: 10px;
@@ -71,7 +71,7 @@ body{
     margin-top: 20px;
 }
 .profile-name .name h4{
-    background:#1d1d1d;
+    background:#0e0d0d;
     font-weight: 400;
     padding: 5px 10px;
     margin: 8px;
@@ -81,10 +81,10 @@ body{
     margin-top: 10px;
     margin-bottom: 25px;
 }
-.profile-name .name .socialmedia i{
-    color: #1d1d1d;;
-    font-size: 26px;
-    color:#fff;
+.profile-name .name .social-media i{
+    color: #ddd;;
+    font-size: 16px;
+    background-color:#222;
     margin: 5px;
     height: 35px;
     line-height: 35px;
@@ -98,26 +98,34 @@ body{
     border: 1px solid rgba(255,255,255,.2);
     background:linear-gradient(45deg, var(--purple), var(--blue));
 }
-.profile-card .contact-info{
+.profile-card .contact{
     background-color: #1d1d1d;
     padding: 15px;
     border-radius: 10px;
     width: 100%;
     margin-bottom: 20px;
 }
-.contact-info .row .icon{
+.profile-card .contact .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.contact .row .icon{
     height: 40px;
     width: 40px;
     line-height: 40px;
     border-radius: 5px;
     color: #fff;
     transition: .5s;
-    background-color: #111;
+    background-color: #000000;
     text-align: center;
 }
 .row .icon:hover{
     transform:scale(1.3);
-    border: 1px solid rgba(255,255,255,.3);
+    border: 1px solid rgba(230, 255, 255, 0.3);
 }
 .row .content{
     min-width: 70%;
@@ -130,6 +138,6 @@ body{
     padding: 1rem 3rem;
     margin-top: 1.5rem;
     background: linear-gradient(45deg, #f64c57, #e21b5a);
-    border: 30px;
+    border-radius: 30px;
     border: none;
 }
