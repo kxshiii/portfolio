@@ -141,3 +141,26 @@ body{
     border-radius: 30px;
     border: none;
 }
+.about{
+    background-color: #111;
+    max-width: 800px;
+    padding:2rem 3rem ;
+    border-radius: 10px;
+}
+.about h1{
+    color: #f2f2f2;
+    margin-bottom: 1.1rem;
+    position: relative;
+    display: inline-block;
+    font-size: 3.5rem;
+
+}
+.about h1::after{
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 3px;
+    content: "";
+    background: linear-gradient(45deg, #f64c57, #e21b);
+    right: -50%;
+}
